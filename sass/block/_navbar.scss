@@ -1,0 +1,20 @@
+.nav__ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link{
+  font-size: 16px;
+line-height: 100%;
+font-weight: 500;
+font-family: "Raleway";
+color: #282b22;
+text-align: left;
+transition: 0.3s ease;
+}
+.link:hover{
+cursor: pointer;
+color: dimgray;
+}
+@media only screen and{max-width: 640px;}
